@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "name": "Fall Limited Edition Sneakers",
+    "category": "men",
+    "featured": "true",
+    "company": "Sneakers Company",
+    "description": "These eye-catching trainers are your perfect casual wear companion. Featuring a durable rubber outer sole for all-day wear.",
+    "price": 125,
+    "originalPrice": 250,
+    "discount": 50,
+    "images": [
+      {
+        "main": "images/image-product-1.jpg",
+        "thumbnail": "images/image-product-1-thumbnail.jpg"
+      },
+      {
+        "main": "images/image-product-2.jpg",
+        "thumbnail": "images/image-product-2-thumbnail.jpg"
+      },
+      {
+        "main": "images/image-product-3.jpg",
+        "thumbnail": "images/image-product-3-thumbnail.jpg"
+      },
+      {
+        "main": "images/image-product-4.jpg",
+        "thumbnail": "images/image-product-4-thumbnail.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Classic White Sneakers",
+    "category": "men",
+    "featured": "true",
+    "company": "Sneakers Company",
+    "description": "A clean and versatile pair of sneakers designed for everyday comfort and casual outfits.",
+    "price": 110,
+    "originalPrice": 220,
+    "discount": 50,
+    "images": [
+      {
+        "main": "images/featured image 1.jpg",
+        "thumbnail": "images/image-product-2-thumbnail.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Sport Running Shoes",
+    "category": "men",
+    "featured": "true",
+    "company": "Sport Company",
+    "description": "Lightweight running shoes designed to provide comfort and support during your daily activities.",
+    "price": 95,
+    "originalPrice": 150,
+    "discount": 37,
+    "images": [
+      {
+        "main": "images/featured image 2.jpg",
+        "thumbnail": "images/image-product-1-thumbnail.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 4,
+    "name": "Casual Canvas Shoes",
+    "category": "men",
+    "featured": "true",
+    "company": "Urban Shoes",
+    "description": "Comfortable canvas shoes with a simple design that's perfect for everyday casual wear.",
+    "price": 85,
+    "originalPrice": 120,
+    "discount": 29,
+    "images": [
+      {
+        "main": "images/featured image 3.jpg",
+        "thumbnail": "images/image-product-1-thumbnail.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "name": "Premium Leather Shoes",
+    "category": "men",
+    "featured": "true",
+    "company": "Premium Footwear",
+    "description": "Premium leather shoes featuring a clean and elegant design for a sophisticated everyday look.",
+    "price": 180,
+    "originalPrice": 250,
+    "discount": 28,
+    "images": [
+      {
+        "main": "images/featured image 4.jpg",
+        "thumbnail": "images/image-product-1-thumbnail.jpg"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Everyday Trainers",
+    "company": "Urban Shoes",
+    "category": "men",
+    "featured": "true",
+    "description": "Versatile trainers designed for everyday comfort and easy styling.",
+    "price": 100,
+    "originalPrice": 160,
+    "discount": 38,
+    "images": [
+      {
+        "main": "images/featured image 5.jpg",
+        "thumbnail": "images/image-product-1-thumbnail.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Trainers",
+    "company": "women Collection",
+    "rating": "★★★★",
+    "category": "women",
+    "featured": "true",
+    "description": "Comfortable sneakers designed for everyday adventures.",
+    "price": 75,
+    "originalPrice": 100,
+    "discount": 25,
+    "images": [
+      {
+        "main": "images/women.jpg",
+        "thumbnail": "images/women-sneakers-thumbnail.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Fashion",
+    "company": "women Collection",
+    "rating": "★★★★",
+    "category": "women",
+    "featured": "true",
+    "description": "Comfortable sneakers designed for everyday adventures.",
+    "price": 75,
+    "originalPrice": 100,
+    "discount": 25,
+    "images": [
+      {
+        "main": "images/women1.jpg",
+        "thumbnail": "images/women.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Sport Running Shoes",
+    "company": "women Collection",
+    "rating": "★★★★",
+    "category": "women",
+    "featured": "true",
+    "description": "Comfortable sneakers designed for everyday adventures.",
+    "price": 75,
+    "originalPrice": 100,
+    "discount": 25,
+    "images": [
+      {
+        "main": "images/women2.jpg",
+        "thumbnail": "images/women2.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Studio Sneakers",
+    "company": "women Collection",
+    "rating": "★★★★",
+    "category": "women",
+    "featured": "true",
+    "description": "Comfortable sneakers designed for everyday adventures.",
+    "price": 75,
+    "originalPrice": 100,
+    "discount": 25,
+    "images": [
+      {
+        "main": "images/women3.jpg",
+        "thumbnail": "images/women3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Canvas unisex",
+    "company": "women Collection",
+    "rating": "★★★★",
+    "category": "women",
+    "featured": "true",
+    "description": "Comfortable sneakers designed for everyday adventures.",
+    "price": 75,
+    "originalPrice": 100,
+    "discount": 25,
+    "images": [
+      {
+        "main": "images/women5.jpg",
+        "thumbnail": "images/women2.jpg"
+      }
+    ]
+  }
+]

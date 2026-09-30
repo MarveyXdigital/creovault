@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100..900&family=Stack+Sans+Text:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- FORM -->
+      <div class="form">
+        <header>
+          <h2>Register New Account</h2>
+        </header>
+        <form id="signup-form" novalidate>
+          <!-- NAME -->
+          <div class="name">
+            <div class="input-group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" placeholder="John" />
+              <small id="firstNameError"></small>
+            </div>
+
+            <div class="input-group">
+              <label for="lastName">Last Name</label>
+
+              <input type="text" id="lastName" placeholder="Doe" />
+
+              <small id="lastNameError"></small>
+            </div>
+          </div>
+
+          <!-- EMAIL -->
+          <div class="contact">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="example@gmail.com" />
+              <small id="emailError"></small>
+            </div>
+          </div>
+
+          <!-- PASSWORD -->
+          <div class="password">
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+              />
+              <small id="passwordError"></small>
+            </div>
+
+            <div class="input-group">
+              <label for="confirmPassword">Confirm Password</label>
+
+              <input
+                type="password"
+                id="confirmPassword"
+                placeholder="Confirm your password"
+              />
+
+              <small id="confirmPasswordError"></small>
+            </div>
+          </div>
+
+          <!-- SUBMIT -->
+          <button type="submit" class="submit" id="submit">Sign Up</button>
+          <small id="submit-error"></small>
+          <p>or continue with</p>
+          <!-- SOCIAL LOGIN -->
+          <div class="social-login">
+            <a
+              href="https://accounts.google.com/"
+              target="_blank"
+              class="social-btn"
+            >
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/060/301/920/small/google-logo-on-button-free-png.png"
+                alt="Google"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="social-btn"
+            >
+              <img src="../images/Facebook.png" alt="Facebook" />
+            </a>
+            <a
+              href="https://x.com/i/flow/login"
+              target="_blank"
+              class="social-btn"
+            >
+              <img src="../images/X.png" alt="Twitter" />
+            </a>
+          </div>
+
+          <p class="sign-in">
+            Already have an account
+            <a href="signin.html">Sign in</a>
+          </p>
+        </form>
+      </div>
+      <!-- IMAGE -->
+      <div class="image">
+        <img src="../../images/formbackground.jpg" alt="Form background" />
+      </div>
+    </div>
+
+    <!-- <script src="signup.js"></script> -->
+    <script src="signin.js"></script>
+  </body>
+</html>

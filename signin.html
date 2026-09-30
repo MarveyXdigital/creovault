@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Text:wght@200..700&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image">
+        <img src="../../images/formbackground.jpg" alt="artboard1" />
+      </div>
+      <div class="form">
+        <header>
+          <h2>Welcome Back</h2>
+        </header>
+        <form id="signin-form">
+          <div class="contact">
+            <div class="input-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="loginEmail"
+                placeholder="example@gmail.com"
+              />
+              <small id="loginEmailError"></small>
+            </div>
+          </div>
+          <!-- password -->
+          <div class="singinpassword">
+            <div class="input-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="loginPassword"
+                placeholder="Enter your password"
+              />
+              <small id="loginPasswordError"></small>
+            </div>
+          </div>
+          <!-- submit -->
+          <button type="submit" class="submit" id="submit">Sign In</button>
+          <small id="submit-error"></small>
+          <p>or continue with</p>
+          <!-- social login -->
+          <div class="social-login">
+            <a
+              href="https://accounts.google.com/"
+              target="_blank"
+              class="social-btn"
+            >
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/060/301/920/small/google-logo-on-button-free-png.png"
+                alt="Google"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="social-btn"
+            >
+              <img src="../images/Facebook.png" alt="Facebook" />
+            </a>
+            <a
+              href="https://x.com/i/flow/login"
+              target="_blank"
+              class="social-btn"
+            >
+              <img src="../images/X.png" alt="Twitter" />
+            </a>
+          </div>
+          <p class="sign-in">
+            Don't have an account?<a href="signup.html">Sign up</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
